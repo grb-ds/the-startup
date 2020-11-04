@@ -1,0 +1,11 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+ #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 30%;
+    /* The width is the width of the web page */
+  }
