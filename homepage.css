@@ -1,0 +1,27 @@
+.navbar-brand{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 32px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right:10px;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+.jumbotron {
+    background-image: url(woman.jpg);
+    margin-bottom: -120x;
+    margin-right: 100px;
+    height: 0%;
+    background-repeat: repeat-x;
+    animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+    from{
+        background-position: 0 0 ;
+    }to{
+        background-position: 100% 0;
+    }
+}
