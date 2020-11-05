@@ -9,7 +9,7 @@ The-startup Challenger.
 Structure of the site:
 <br>
 Home Page (Ismi) 
-.nav bar (refer as Rino&pelle)
+.nav bar 
 .city pics - Paris, Vienna, London, Brussels
 
 Destinations (Valerie)
@@ -30,7 +30,7 @@ Bratz & Vogue
 
 Colors: 
 Background - #f3f2f5 <br>
-Text - black #289fee
+Text -  #289fee
 
 Theme:
 Fashion travel - City Vibes - travel to fashion cities/fashion week - Shopping
