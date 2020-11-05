@@ -1,0 +1,10 @@
+body {
+    background-color: #f3f2f5;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right:10px;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}

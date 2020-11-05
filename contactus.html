@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus.css">
+
+
+
+
+    <title>Bratz & Vogue</title>
+</head>
+<body>
+
+
+    
+
+   key AIzaSyCptg4Jkm2E_S1ivYjFClfvMSjJI9dj_W8
+    Add google maps pinned on the location of your company somewhere on one page.
+
+    Mention your phone number (can be a dummy one) somewhere on the onepager, if you click it should (try to) call you.
+
+
+
+    
+    <div class="form">
+        <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+            <fieldset id="fs-frm-inputs">
+            <label for="full-name">Name</label>
+            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+            <label for="department">Topic</label>
+            <select name="department" id="department" required="">
+                <option value="Select" selected="" disabled="">Select</option>
+                <option value="Destinations">Struggling on destinations?</option>
+                <option value="Billing">Confused about billing?</option>
+                <option value="Customer Care">Customer Care</option>
+                
+            </select>
+            <label for="message">Message</label>
+            <textarea rows="5" name="message" id="message" placeholder="Your message here" required=""></textarea>
+            <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+
+    <div id="map"></div>
+
+    
+    <!-- google map JS -->
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          var location = {lat: 51.043040, lng: 3.725160};
+          // The map, centered at Uluru
+          var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: location 
+          });
+          // The marker, positioned at Uluru 
+          
+          const marker = new google.maps.Marker({
+            position: location,
+            map: map,
+          });
+        }
+      </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCptg4Jkm2E_S1ivYjFClfvMSjJI9dj_W8&callback=myMap"></script></script>
+
+</body>
+</html>
