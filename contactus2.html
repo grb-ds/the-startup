@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactus2.css">
+    
+    <!-- google map JS -->
+    <script>
+        // Initialize and add the map
+        function initMap() {
+          // The location of Uluru
+          const uluru = { lat: -25.344, lng: 131.036 };
+          // The map, centered at Uluru
+          const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: uluru,
+          });
+          // The marker, positioned at Uluru
+          const marker = new google.maps.Marker({
+            position: uluru,
+            map: map,
+          });
+        }
+      </script>
+
+
+    <title>Bratz & Vogue</title>
+</head>
+
+
+
+<body>
+
+
+    <div class="container">
+
+        <div class="pic">
+        <img src="img/vertical.jpg" alt="background">
+        </div>
+    
+    
+    <div class="container2">
+       
+     
+    <div class="topic">
+        <h4>Wants to know more? <br>
+        <span class="cap-letter"><i>Contact us</i></span><br>
+         for more information</h4>
+    </div>
+
+    
+<!-- form start     -->
+        
+        <div class="subtitle">
+            <h5>LEAVE A MESSAGE</h5>
+        
+
+            <div class="form">
+                <form action="#">
+                    <label for="fname"> Name</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Email</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br>
+                    <label for="message">Message</label><br>
+                    <textarea rows="6" name="message" id="message" placeholder="" required="">
+                    </textarea><br><br>
+                    <input type="submit" value="Contact Us">
+
+                  </form> 
+            </div>
+
+        </div>
+
+        <!-- call logo -->
+        <div class="phone">
+            <div class="subtitle">
+                <h5>By phone</h5>
+            </div>
+
+            <p>+33 123 256 6787
+                <a href="tel:123-456-7890p123">
+                    <img src="img/phone-call.png" alt="phone-call" width="50px">
+                </a>
+            </p>  
+        </div>
+
+
+        <!-- google map -->
+        <div id="googleMap">
+            <div class="subtitle">
+                <h5>Come Visit us</h5>
+                <p>Kon. Astridlaan 185, <br>
+                    9000 Gent</p>
+            </div>
+        </div>
+
+    
+
+    </div>
+</div>
+    
+</body>
+</html>
