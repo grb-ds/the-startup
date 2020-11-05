@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 05/11/2020 07:33
+  	Creation date: 05/11/2020 14:53
   	*/
 
 @font-face {
@@ -31,3 +31,6 @@ margin-left: 20px;
 }
 
 .flaticon-phone-call:before { content: "\f100"; }
+.flaticon-pin:before { content: "\f101"; }
+.flaticon-mail:before { content: "\f102"; }
+.flaticon-maps-and-flags:before { content: "\f103"; }

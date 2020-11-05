@@ -10,6 +10,17 @@
     font-family: 'Fjalla One', sans-serif;
 }
 
+
+.nav-link:hover::after {
+    content:'';
+    display: block;
+    border-bottom: 3px solid #e4d1c4;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    padding-bottom: -8px;
+}
+
 h1 {
     position: absolute;
     padding-top: 80px;
@@ -45,4 +56,97 @@ h1 {
     }to{
         background-position: 100% 0;
     }
+}
+
+.part1 {
+    text-align: center;
+    margin: 4rem;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.part2 {
+    text-align: center;
+    margin: 4rem;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.line1 {
+    font-size: 50px;
+}
+
+.line2 {
+    font-size: 25px;
+}
+
+.card {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f7f7;
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.photo-h {
+    height: 15rem;
+    width: 22rem;
+    min-width: 18rem;
+}
+
+.flaticon-maps-and-flags::before {
+    margin-left: 0;
+}
+
+.discover-button {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: none;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo-t {
+    width: 18rem;
+    height: 25rem;
+}
+
+.card-body-t {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.mail {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.flaticon-mail::before {
+    margin: 0%;
+}
+
+
+.footer-style{
+    background-color: #2c282c;
+    color: #fcbbab;
+
+}
+
+.footer-style   a {
+    color: #fcbbab;
 }
