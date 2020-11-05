@@ -1,7 +1,79 @@
+.navbar-brand{
+    font-family: 'Spectral SC', serif;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-family: 'Spectral SC', serif;
+    font-size: 32px;
+}
+
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right:10px;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+
+
+}
+.nav-link:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    transform :scale(1,01);
+    background-color: #e4d1c4;
+}
+
+.flaticon-phone-call::before {
+    font-size: 20px;
+
+}
+
+.phonenumber {
+    margin-top: 5px;
+    margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    text-align: right;
+    color: black;
+}
+
+.phonenumber>a {
+    text-decoration: none;
+    color:  black ;
+}
+
+.mail {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.flaticon-mail::before {
+    margin: 0%;
+}
+
+.flaticon-maps-and-flags::before {
+    margin-left: 0;
+}
+
+
+.flaticon-phone-call::before {
+    font-size: 20px;
+}
+
+
 .container-style {
     background-color: #fcbbab;
 }
 
+
+
+
+/**/
 h1{
     text-align: center;
     color: #e4d1c4;
