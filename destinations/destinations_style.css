@@ -13,7 +13,7 @@
 h1 {
     position: absolute;
     padding-top: 80px;
-    padding-left: 30px;
+    padding-left: 93px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(94, 66, 94);
 }
@@ -39,3 +39,10 @@ h1 {
     color:  black ;
 }
 
+@keyframes animate {
+    from{
+        background-position: 0 0 ;
+    }to{
+        background-position: 100% 0;
+    }
+}
