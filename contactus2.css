@@ -108,7 +108,7 @@ nav {
       grid-template-columns: auto;
   -ms-grid-rows: auto auto auto auto;
       grid-template-rows: auto auto auto auto;
-  grid-row-gap: 20px;
+  grid-row-gap: 50px;
 }
 
 .pic {
@@ -131,8 +131,8 @@ img {
 }
 
 .cap-letter {
-  font-weight: 300;
-  letter-spacing: -1.5px;
+  font-weight: 200;
+  letter-spacing: -1.7px;
   text-align: right;
   font-size: 70px;
 }
@@ -151,15 +151,6 @@ input, textarea {
   border: none;
   font-family: "Montserrat", sans-serif;
   width: 300px;
-}
-
-.phone a {
-  text-decoration: none;
-}
-
-.phone p {
-  font-size: 12px;
-  font-family: "Montserrat", sans-serif;
 }
 
 #map {
