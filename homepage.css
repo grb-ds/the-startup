@@ -70,6 +70,7 @@ p{
 
 .flaticon-phone-call::before {
     font-size: 20px;
+
 }
 
 .phonenumber {
@@ -79,11 +80,19 @@ p{
     font-size: 15px;
     font-style: normal;
     text-align: right;
+    color: black;
 }
 
-.phonenumber>a {
-    text-decoration: none;
-    color:  black ;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
