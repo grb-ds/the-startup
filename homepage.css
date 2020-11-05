@@ -1,5 +1,9 @@
+body{
+    background-color: #f3f2f5;
+}
+
 .navbar-brand{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Spectral SC', serif;
     font-size: 32px;
 }
 
@@ -9,11 +13,30 @@
     font-size: 15px;
     font-family: 'Fjalla One', sans-serif;
 }
-.jumbotron {
+
+img{
+    width: 220px;
+    height:150px;
+    margin-left: 450px;
+   margin-top: 290px;
+   -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+    
+  }
+   
+  .zoom-effect:hover  .img {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+  
+  
+  
+
+.container {
     background-image: url(woman.jpg);
-    margin-bottom: -120x;
-    margin-right: 100px;
-    height: 0%;
+    width: 100%;
+    height: 600px;
+    position: relative;
     background-repeat: repeat-x;
     animation: animate 20s linear infinite;
 }
@@ -25,3 +48,27 @@
         background-position: 100% 0;
     }
 }
+
+h1{
+    text-align: center;
+    color: #e4d1c4;
+    font-family: 'Spectral SC', serif;
+}
+
+p{
+    text-align: center;
+    color: #e4d1c4;
+    font-family: 'Spectral SC', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.button{
+    margin: 60px;
+    padding: 15px;
+    border-radius: 10%;
+    color:#e4d1c4;
+    
+   
+}
+
