@@ -22,7 +22,7 @@
 }
 
 img{
-    width: 220px;
+    width: 200px;
     height:150px;
     margin-left: 450px;
    margin-top: 290px;
@@ -73,24 +73,18 @@ p{
 
 
 
-a.button {
+.button {
    position: absolute;
    top:100%;
    left: 43%;
    line-height: 60px;
-   color:white;
    font-size: 24px;
    text-transform: uppercase;
    box-sizing: border-box;
-   background: linear-gradient(90deg,#ffcc99 ,#ffffff , #e4d1c4);
-   background-size: 400%;
-   border-radius: 10px;
-   font-family: 'Spectral SC', serif;
-   
  
 }
 
-a:hover{
+button :hover{
     animation:animate 8s linear infinite;
 }
 
