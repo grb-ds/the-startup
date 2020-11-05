@@ -1,0 +1,36 @@
+body {
+    background-color: #f3f2f5;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    margin-right:10px;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(94, 66, 94);
+}
+
+.emphasis {
+    font-size: 60px;
+}
+
+.flaticon-phone-call::before {
+    font-size: 20px;
+}
+
+.phonenumber {
+    margin-top: 5px;
+    margin-bottom: 0%;
+}
+
+.phonenumber>a {
+    text-decoration: none;
+    color:  rgb(117, 83, 117); ;
+}
