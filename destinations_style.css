@@ -3,23 +3,25 @@
     font-size: 20px;
 }
 
+.navbar-brand{
+    font-family: 'Spectral SC', serif;
+    font-size: 32px;
+}
+
+
 .nav-link{
     text-transform: uppercase;
     margin-right:10px;
     font-size: 15px;
     font-family: 'Fjalla One', sans-serif;
+    
+}
+.nav-link:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    transform :scale(1,01);
+    background-color: #e4d1c4;
 }
 
-
-.nav-link:hover::after {
-    content:'';
-    display: block;
-    border-bottom: 3px solid #e4d1c4;
-    width: 50%;
-    margin: auto;
-    padding-bottom: 5px;
-    padding-bottom: -8px;
-}
 
 h1 {
     position: absolute;
