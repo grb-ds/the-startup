@@ -68,4 +68,22 @@ p{
    
 }
 
+.flaticon-phone-call::before {
+    font-size: 20px;
+}
+
+.phonenumber {
+    margin-top: 5px;
+    margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    text-align: right;
+}
+
+.phonenumber>a {
+    text-decoration: none;
+    color:  black ;
+}
+
 

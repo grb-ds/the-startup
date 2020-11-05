@@ -29,9 +29,13 @@ h1 {
 .phonenumber {
     margin-top: 5px;
     margin-bottom: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    font-style: normal;
 }
 
 .phonenumber>a {
     text-decoration: none;
     color:  black ;
 }
+
