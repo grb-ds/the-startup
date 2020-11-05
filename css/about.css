@@ -1,0 +1,51 @@
+.container-style {
+    background-color: #fcbbab;
+}
+
+h1{
+    text-align: center;
+    color: #e4d1c4;
+    font-family: 'Spectral SC', serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.emphasis {
+    font-size: 60px;
+}
+
+/*common*/
+
+.jumbotron-style {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+hr.hr-text {
+    position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+    font-family: 'Spectral SC', serif;
+    color: #fcbbab;
+}
+
+hr.hr-text::before {
+    content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fcbbab;
+}
