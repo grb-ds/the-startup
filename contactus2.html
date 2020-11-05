@@ -10,10 +10,10 @@
         // Initialize and add the map
         function initMap() {
           // The location of Uluru
-          const uluru = { lat: -25.344, lng: 131.036 };
+          const uluru = { lat: 51.043041, lng: 3.725160 };
           // The map, centered at Uluru
           const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 4,
+            zoom: 2,
             center: uluru,
           });
           // The marker, positioned at Uluru
@@ -23,6 +23,14 @@
           });
         }
       </script>
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCptg4Jkm2E_S1ivYjFClfvMSjJI9dj_W8&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+
+
+
+
 
 
     <title>Bratz & Vogue</title>
@@ -44,9 +52,9 @@
        
      
     <div class="topic">
-        <h4>Wants to know more? <br>
-        <span class="cap-letter"><i>Contact us</i></span><br>
-         for more information</h4>
+        <h4>This trip  <br>
+            will bring you the<br>
+             <span class="cap-letter"><i>LATEST TREND</i></span></h4>
     </div>
 
     
@@ -75,25 +83,23 @@
         <!-- call logo -->
         <div class="phone">
             <div class="subtitle">
-                <h5>By phone</h5>
+                <h5>CALL US</h5>
             </div>
 
-            <p>+33 123 256 6787
-                <a href="tel:123-456-7890p123">
-                    <img src="img/phone-call.png" alt="phone-call" width="50px">
-                </a>
-            </p>  
+            <a href="tel:123-456-7890p123">
+                <img src="img/phone-call.png" alt="phone-call" width="50px"></a>
+                <p>020 3131 8481</p>  
         </div>
 
 
         <!-- google map -->
-        <div id="googleMap">
-            <div class="subtitle">
-                <h5>Come Visit us</h5>
-                <p>Kon. Astridlaan 185, <br>
-                    9000 Gent</p>
-            </div>
+        <div class="subtitle">
+            <h5>COME VISIT US</h5>
+            <p>Kon. Astridlaan 185, <br>
+                9000 Gent</p>
         </div>
+
+        <div id="map"></div>
 
     
 

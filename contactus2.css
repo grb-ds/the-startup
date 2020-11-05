@@ -49,6 +49,7 @@ img {
 
 p {
   font-family: "Montserrat", sans-serif;
+  font-size: 10px;
 }
 
 h1 {
@@ -69,11 +70,14 @@ h5 {
   font-family: "Montserrat", sans-serif;
 }
 
+.topic {
+  text-align: right;
+}
+
 h4 {
   font-family: "Domine", serif;
   font-weight: 200;
   color: black;
-  text-align: center;
 }
 
 form {
@@ -92,7 +96,35 @@ input, textarea {
 }
 
 #map {
-  width: 30%;
+  width: 330px;
   height: 150px;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    width: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .pic {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .pic img {
+    height: 100px;
+  }
+  .container2 {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    width: 400px;
+  }
 }
 /*# sourceMappingURL=contactus2.css.map */

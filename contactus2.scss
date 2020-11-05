@@ -42,13 +42,14 @@ $info-font: 'Montserrat', sans-serif;
 
 img {
     object-fit: cover;
-  width: 100%
+  width: 100%;
 }
 
 
 
 p{
     font-family: $info-font;
+    font-size: 10px;
 }
 
 h1{  
@@ -69,11 +70,15 @@ h5{
     font-family: $info-font;
 }
 
+.topic{
+    text-align: right;
+}
+
 h4{
     font-family: $beau-font;
     font-weight: 200;
     color: $textcolor;
-    text-align:center;
+    
 }
 
 form{
@@ -103,9 +108,35 @@ input, textarea{
 
 // google map css
 #map{
-    width: 30%;
-    height: 150px;
+    width: 330px;
+    height: 150px;    
+
 }
 
 
+//media screen
+@media only screen and (max-width: 700px){
+    .container{
+        width:100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pic{
+        flex: 100%;
+        img{
+            height: 100px;
+        }
+    }
+
+    .container2{
+        flex: 100%;
+        width: 300px;
+        grid-template-columns: 1fr;
+        
+    }
+
+}
 
