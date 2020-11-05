@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.navbar-brand {
+  font-family: 'Spectral SC', serif;
+  font-size: 32px;
+}
+
 .nav-link {
   text-transform: uppercase;
   margin-right: 10px;
