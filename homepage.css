@@ -3,11 +3,22 @@
     font-size: 32px;
 }
 
+
 .nav-link{
     text-transform: uppercase;
     margin-right:10px;
     font-size: 15px;
     font-family: 'Fjalla One', sans-serif;
+}
+
+.nav-link:hover::after {
+    content:'';
+    display: block;
+    border-bottom: 3px solid #e4d1c4;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    padding-bottom: -8px;
 }
 
 img{
@@ -57,16 +68,35 @@ p{
     font-family: 'Spectral SC', serif;
     font-style: italic;
     font-size: 20px;
+
 }
 
-.button{
-    margin: 60px;
-    padding: 15px;
-    border-radius: 10%;
-    color:#e4d1c4;
-    
+
+
+a.button {
+   position: absolute;
+   top:100%;
+   left: 43%;
+   line-height: 60px;
+   color:white;
+   font-size: 24px;
+   text-transform: uppercase;
+   box-sizing: border-box;
+   background: linear-gradient(90deg,#ffcc99 ,#ffffff , #e4d1c4);
+   background-size: 400%;
+   border-radius: 10px;
+   font-family: 'Spectral SC', serif;
    
+ 
 }
+
+a:hover{
+    animation:animate 8s linear infinite;
+}
+
+
+
+
 
 .flaticon-phone-call::before {
     font-size: 20px;
