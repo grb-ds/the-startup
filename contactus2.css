@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+  margin: auto;
+  width: 99%;
+  background: #e4d2c4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 80%;
+      grid-template-columns: 30% 80%;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+}
+
+.container2 {
+  margin: auto;
+  width: 40%;
+  background: #e4d2c4;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: auto auto auto auto;
+      grid-template-rows: auto auto auto auto;
+  grid-row-gap: 20px;
+}
+
+.pic {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1 / 5;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  font-family: "Domine", serif;
+  color: #f3f2f5;
+  text-align: right;
+}
+
+.cap-letter {
+  font-weight: 300;
+  letter-spacing: -1.5px;
+  text-align: right;
+  font-size: 70px;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  font-family: "Domine", serif;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+}
+
+form {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+input, textarea {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  width: 300px;
+}
+
+.phone img {
+  width: 20px;
+}
+
+#map {
+  width: 30%;
+  height: 150px;
+}
+/*# sourceMappingURL=contactus2.css.map */
