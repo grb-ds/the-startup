@@ -154,6 +154,13 @@ input, textarea{
     width: 300px;
 }
 
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    width: 300px;   
+}
+
 // google map css
 #map{
     width: 300px;

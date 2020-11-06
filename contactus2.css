@@ -5,25 +5,20 @@
   font-size: 32px;
 }
 
-.navbar-brand{
-  font-family: 'Spectral SC', serif;
-  font-size: 32px;
-}
-
-
-.nav-link{
+.nav-link {
   text-transform: uppercase;
-  margin-right:10px;
+  margin-right: 10px;
   font-size: 15px;
   font-family: 'Fjalla One', sans-serif;
-  
-}
-.nav-link:hover{
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-  transform :scale(1,01);
-  background-color: #e4d1c4;
 }
 
+.nav-link:hover {
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+  background-color: #e4d1c4;
+}
 
 .flaticon-phone-call::before {
   font-size: 20px;
@@ -158,6 +153,19 @@ form {
 input, textarea {
   border: none;
   font-family: "Montserrat", sans-serif;
+  width: 300px;
+}
+
+.socialmedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 300px;
 }
 
