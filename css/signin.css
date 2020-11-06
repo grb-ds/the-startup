@@ -60,11 +60,3 @@ body {
     color:#2c282c;
 }
 
-.input-color:active{
-    border-color: #e4d1c4;
-}
-
-.form-control-color:active {
-    border-color: #e4d1c4;
-    box-shadow: #2c282c;
-}
